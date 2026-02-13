@@ -15,7 +15,7 @@ function App() {
     '/wedding.jpg',
     '/dancing.jpg',
     '/lanterns.jpg',
-    'hats.jpg'
+    '/hats.jpg'
   ];
 
   const sliderSettings = {
@@ -182,7 +182,7 @@ function App() {
                   borderRadius: "0.75rem"
                 }}>
                   <img
-                    src={image}
+                    src={`/valentines-day${image}`}
                     alt={`Memory ${index + 1}`}
                     style={{ objectFit: "cover", width: "100%", height: "auto" }}
                   />
